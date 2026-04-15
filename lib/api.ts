@@ -1,6 +1,7 @@
 // app/lib/api.ts
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://senshi-dojo.onrender.com";
+
 
 // ==================== TOKEN UTILS ====================
 export function getToken() {
